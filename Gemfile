@@ -62,3 +62,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# To have CRUD on all tables for admins
+gem 'rails_admin', '~> 2.0'
